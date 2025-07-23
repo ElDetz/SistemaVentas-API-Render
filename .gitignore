@@ -1,0 +1,41 @@
+# .NET Core
+bin/
+obj/
+
+# .vs (Visual Studio)
+.vs/
+.vs2019/
+.vs2017/
+.vs2015/
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# User-specific files
+.idea/
+.vscode/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows Installer log files
+*.cab
+*.log
+
+# User-specific files
+*.user
+*.userosscache
+*.suo
+*.sln.docstates
+
+# Tye
+.tye/
+
+# JetBrains Rider
+.idea/
+
+# ASP.NET temporary files
+*.dbmdl
