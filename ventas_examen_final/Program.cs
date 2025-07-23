@@ -14,7 +14,7 @@ builder.Services.AddCors(options =>
     options.AddPolicy("AllowAngularApp",
         policy =>
         {
-            policy.WithOrigins("http://ventas-web.onrender.com/", "https://ventas-web.onrender.com/")
+            policy.WithOrigins("http://ventas-web.onrender.com/", "https://ventas-web.onrender.com/", "http://localhost:4200")
                   .AllowAnyHeader()
                   .AllowAnyMethod()
                   .AllowCredentials();
